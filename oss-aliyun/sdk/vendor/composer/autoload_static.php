@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitcf14dda7903d1c92e4d1ac0249775b5e
+class ComposerStaticInite285d182e703e1896ed870a1dc85f9b5
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -105,20 +105,27 @@ class ComposerStaticInitcf14dda7903d1c92e4d1ac0249775b5e
         'AlibabaCloud\\Credentials\\BearerTokenCredential' => __DIR__ . '/..' . '/alibabacloud/credentials/src/BearerTokenCredential.php',
         'AlibabaCloud\\Credentials\\Credential' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Credential.php',
         'AlibabaCloud\\Credentials\\Credential\\Config' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Credential/Config.php',
+        'AlibabaCloud\\Credentials\\Credential\\CredentialModel' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Credential/CredentialModel.php',
         'AlibabaCloud\\Credentials\\Credentials' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Credentials.php',
         'AlibabaCloud\\Credentials\\CredentialsInterface' => __DIR__ . '/..' . '/alibabacloud/credentials/src/CredentialsInterface.php',
+        'AlibabaCloud\\Credentials\\CredentialsProviderWrap' => __DIR__ . '/..' . '/alibabacloud/credentials/src/CredentialsProviderWrap.php',
         'AlibabaCloud\\Credentials\\EcsRamRoleCredential' => __DIR__ . '/..' . '/alibabacloud/credentials/src/EcsRamRoleCredential.php',
-        'AlibabaCloud\\Credentials\\Filter' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Filter.php',
-        'AlibabaCloud\\Credentials\\Helper' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Helper.php',
-        'AlibabaCloud\\Credentials\\MockTrait' => __DIR__ . '/..' . '/alibabacloud/credentials/src/MockTrait.php',
+        'AlibabaCloud\\Credentials\\Providers\\CLIProfileCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/CLIProfileCredentialsProvider.php',
         'AlibabaCloud\\Credentials\\Providers\\ChainProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/ChainProvider.php',
-        'AlibabaCloud\\Credentials\\Providers\\EcsRamRoleProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/EcsRamRoleProvider.php',
-        'AlibabaCloud\\Credentials\\Providers\\Provider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/Provider.php',
-        'AlibabaCloud\\Credentials\\Providers\\RamRoleArnProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/RamRoleArnProvider.php',
-        'AlibabaCloud\\Credentials\\Providers\\RsaKeyPairProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/RsaKeyPairProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\Credentials' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/Credentials.php',
+        'AlibabaCloud\\Credentials\\Providers\\CredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/CredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\DefaultCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/DefaultCredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\EcsRamRoleCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/EcsRamRoleCredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\EnvironmentVariableCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/EnvironmentVariableCredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\OIDCRoleArnCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/OIDCRoleArnCredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\ProfileCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/ProfileCredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\RamRoleArnCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/RamRoleArnCredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\RsaKeyPairCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/RsaKeyPairCredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\SessionCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/SessionCredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\StaticAKCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/StaticAKCredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\StaticSTSCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/StaticSTSCredentialsProvider.php',
+        'AlibabaCloud\\Credentials\\Providers\\URLCredentialsProvider' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Providers/URLCredentialsProvider.php',
         'AlibabaCloud\\Credentials\\RamRoleArnCredential' => __DIR__ . '/..' . '/alibabacloud/credentials/src/RamRoleArnCredential.php',
-        'AlibabaCloud\\Credentials\\Request\\AssumeRole' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Request/AssumeRole.php',
-        'AlibabaCloud\\Credentials\\Request\\GenerateSessionAccessKey' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Request/GenerateSessionAccessKey.php',
         'AlibabaCloud\\Credentials\\Request\\Request' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Request/Request.php',
         'AlibabaCloud\\Credentials\\RsaKeyPairCredential' => __DIR__ . '/..' . '/alibabacloud/credentials/src/RsaKeyPairCredential.php',
         'AlibabaCloud\\Credentials\\Signature\\BearerTokenSignature' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Signature/BearerTokenSignature.php',
@@ -127,6 +134,9 @@ class ComposerStaticInitcf14dda7903d1c92e4d1ac0249775b5e
         'AlibabaCloud\\Credentials\\Signature\\ShaHmac256WithRsaSignature' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Signature/ShaHmac256WithRsaSignature.php',
         'AlibabaCloud\\Credentials\\Signature\\SignatureInterface' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Signature/SignatureInterface.php',
         'AlibabaCloud\\Credentials\\StsCredential' => __DIR__ . '/..' . '/alibabacloud/credentials/src/StsCredential.php',
+        'AlibabaCloud\\Credentials\\Utils\\Filter' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Utils/Filter.php',
+        'AlibabaCloud\\Credentials\\Utils\\Helper' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Utils/Helper.php',
+        'AlibabaCloud\\Credentials\\Utils\\MockTrait' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Utils/MockTrait.php',
         'AlibabaCloud\\Tea\\Exception\\TeaError' => __DIR__ . '/..' . '/alibabacloud/tea/src/Exception/TeaError.php',
         'AlibabaCloud\\Tea\\Exception\\TeaRetryError' => __DIR__ . '/..' . '/alibabacloud/tea/src/Exception/TeaRetryError.php',
         'AlibabaCloud\\Tea\\Exception\\TeaUnableRetryError' => __DIR__ . '/..' . '/alibabacloud/tea/src/Exception/TeaUnableRetryError.php',
@@ -349,9 +359,9 @@ class ComposerStaticInitcf14dda7903d1c92e4d1ac0249775b5e
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitcf14dda7903d1c92e4d1ac0249775b5e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitcf14dda7903d1c92e4d1ac0249775b5e::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitcf14dda7903d1c92e4d1ac0249775b5e::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite285d182e703e1896ed870a1dc85f9b5::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite285d182e703e1896ed870a1dc85f9b5::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite285d182e703e1896ed870a1dc85f9b5::$classMap;
 
         }, null, ClassLoader::class);
     }

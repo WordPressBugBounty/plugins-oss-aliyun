@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v1.4.18',
-        'version' => '1.4.18.0',
+        'pretty_version' => 'v1.4.19',
+        'version' => '1.4.19.0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c8981d2ced49d67a3090f0bce6166916b22bdcae',
+        'reference' => 'bc9387d3adba8032e655622bd5572d54ab43f318',
         'name' => '__root__',
         'dev' => false,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => 'v1.4.18',
-            'version' => '1.4.18.0',
+            'pretty_version' => 'v1.4.19',
+            'version' => '1.4.19.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c8981d2ced49d67a3090f0bce6166916b22bdcae',
+            'reference' => 'bc9387d3adba8032e655622bd5572d54ab43f318',
             'dev_requirement' => false,
         ),
         'adbario/php-dot-notation' => array(
@@ -29,12 +29,12 @@
             'dev_requirement' => false,
         ),
         'alibabacloud/credentials' => array(
-            'pretty_version' => '1.1.5',
-            'version' => '1.1.5.0',
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../alibabacloud/credentials',
             'aliases' => array(),
-            'reference' => '1d8383ceef695974a88a3859c42e235fd2e3981a',
+            'reference' => 'ebcda2e628180b4df235b46a86e1d014c561f5d9',
             'dev_requirement' => false,
         ),
         'alibabacloud/tea' => array(
@@ -47,12 +47,12 @@
             'dev_requirement' => false,
         ),
         'aliyuncs/oss-sdk-php' => array(
-            'pretty_version' => 'v2.7.1',
-            'version' => '2.7.1.0',
+            'pretty_version' => 'v2.7.2',
+            'version' => '2.7.2.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../aliyuncs/oss-sdk-php',
             'aliases' => array(),
-            'reference' => 'ce5d34dae9868237a32248788ea175c7e9da14b1',
+            'reference' => '483dd0b8bff5d47f0e4ffc99f6077a295c5ccbb5',
             'dev_requirement' => false,
         ),
         'guzzlehttp/guzzle' => array(
