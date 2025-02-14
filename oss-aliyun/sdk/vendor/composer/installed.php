@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v1.4.20',
-        'version' => '1.4.20.0',
+        'pretty_version' => 'v1.4.21',
+        'version' => '1.4.21.0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'f291f253aaf49ba83854701251734b5256d7621a',
+        'reference' => '04023f72eb7b96811e67760c902131fec4a7d14e',
         'name' => '__root__',
         'dev' => false,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => 'v1.4.20',
-            'version' => '1.4.20.0',
+            'pretty_version' => 'v1.4.21',
+            'version' => '1.4.21.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'f291f253aaf49ba83854701251734b5256d7621a',
+            'reference' => '04023f72eb7b96811e67760c902131fec4a7d14e',
             'dev_requirement' => false,
         ),
         'adbario/php-dot-notation' => array(
