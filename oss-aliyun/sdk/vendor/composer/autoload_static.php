@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5cbec1ff585afa31244d1acbf25a5001
+class ComposerStaticInit30f34028dd3d12f3c52b740c21527226
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -106,6 +106,7 @@ class ComposerStaticInit5cbec1ff585afa31244d1acbf25a5001
         'AlibabaCloud\\Credentials\\Credential' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Credential.php',
         'AlibabaCloud\\Credentials\\Credential\\Config' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Credential/Config.php',
         'AlibabaCloud\\Credentials\\Credential\\CredentialModel' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Credential/CredentialModel.php',
+        'AlibabaCloud\\Credentials\\Credential\\RefreshResult' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Credential/RefreshResult.php',
         'AlibabaCloud\\Credentials\\Credentials' => __DIR__ . '/..' . '/alibabacloud/credentials/src/Credentials.php',
         'AlibabaCloud\\Credentials\\CredentialsInterface' => __DIR__ . '/..' . '/alibabacloud/credentials/src/CredentialsInterface.php',
         'AlibabaCloud\\Credentials\\CredentialsProviderWrap' => __DIR__ . '/..' . '/alibabacloud/credentials/src/CredentialsProviderWrap.php',
@@ -359,9 +360,9 @@ class ComposerStaticInit5cbec1ff585afa31244d1acbf25a5001
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5cbec1ff585afa31244d1acbf25a5001::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5cbec1ff585afa31244d1acbf25a5001::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit5cbec1ff585afa31244d1acbf25a5001::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit30f34028dd3d12f3c52b740c21527226::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit30f34028dd3d12f3c52b740c21527226::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit30f34028dd3d12f3c52b740c21527226::$classMap;
 
         }, null, ClassLoader::class);
     }

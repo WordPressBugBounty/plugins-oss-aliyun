@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v1.5.0',
-        'version' => '1.5.0.0',
+        'pretty_version' => 'v1.5.1',
+        'version' => '1.5.1.0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '2d7be1839d7079ef5fa124649a1be52d012aa359',
+        'reference' => '96d6861184abd29a9f16756f1fd82bb3651a9de7',
         'name' => '__root__',
         'dev' => false,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => 'v1.5.0',
-            'version' => '1.5.0.0',
+            'pretty_version' => 'v1.5.1',
+            'version' => '1.5.1.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '2d7be1839d7079ef5fa124649a1be52d012aa359',
+            'reference' => '96d6861184abd29a9f16756f1fd82bb3651a9de7',
             'dev_requirement' => false,
         ),
         'adbario/php-dot-notation' => array(
@@ -29,12 +29,12 @@
             'dev_requirement' => false,
         ),
         'alibabacloud/credentials' => array(
-            'pretty_version' => '1.2.0',
-            'version' => '1.2.0.0',
+            'pretty_version' => '1.2.3',
+            'version' => '1.2.3.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../alibabacloud/credentials',
             'aliases' => array(),
-            'reference' => 'ebcda2e628180b4df235b46a86e1d014c561f5d9',
+            'reference' => 'f6d1986e7b7be8da781d0b99f24c92d9860ba0c1',
             'dev_requirement' => false,
         ),
         'alibabacloud/tea' => array(

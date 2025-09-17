@@ -12,6 +12,7 @@ return array(
     'AlibabaCloud\\Credentials\\Credential' => $vendorDir . '/alibabacloud/credentials/src/Credential.php',
     'AlibabaCloud\\Credentials\\Credential\\Config' => $vendorDir . '/alibabacloud/credentials/src/Credential/Config.php',
     'AlibabaCloud\\Credentials\\Credential\\CredentialModel' => $vendorDir . '/alibabacloud/credentials/src/Credential/CredentialModel.php',
+    'AlibabaCloud\\Credentials\\Credential\\RefreshResult' => $vendorDir . '/alibabacloud/credentials/src/Credential/RefreshResult.php',
     'AlibabaCloud\\Credentials\\Credentials' => $vendorDir . '/alibabacloud/credentials/src/Credentials.php',
     'AlibabaCloud\\Credentials\\CredentialsInterface' => $vendorDir . '/alibabacloud/credentials/src/CredentialsInterface.php',
     'AlibabaCloud\\Credentials\\CredentialsProviderWrap' => $vendorDir . '/alibabacloud/credentials/src/CredentialsProviderWrap.php',
